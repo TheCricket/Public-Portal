@@ -1,0 +1,61 @@
+{
+  "name": "cfa-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "core-js": "^2.6.5",
+    "dotenv": "^8.2.0",
+    "epic-spinners": "^1.1.0",
+    "express": "^4.17.1",
+    "firebase": "^7.23.0",
+    "firebase-admin": "^9.2.0",
+    "firebase-tools": "^8.7.0",
+    "logging": "^3.2.0",
+    "moment": "^2.27.0",
+    "sw-precache": "^5.2.1",
+    "teenyicons": "^0.3.0",
+    "vue": "^2.6.10",
+    "vue-chartjs": "^3.5.1",
+    "vue-moment": "^4.1.0",
+    "vue-router": "^3.4.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-eslint": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
